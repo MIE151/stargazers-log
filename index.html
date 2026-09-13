@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main>
+      <p class="eyebrow">Personal archive</p>
+      <h1>Stargazers log</h1>
+      <p class="intro">A small record of the repositories that have earned a place in my starred list.</p>
+      <p id="status" class="status" role="status">Loading starred repositories...</p>
+      <ul id="repository-list" class="repository-list" aria-label="Starred repositories"></ul>
+    </main>
   </body>
 </html>
